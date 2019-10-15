@@ -4,11 +4,36 @@
 .lg-flex-container {
   width: 100%;
   height: 100vh;
-  background: purple;
+  background: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   }
 
 .md-flex-container {
   width: 100%;
   height: 70vh;
-  background: green;
+  background: white;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.self-introduction-image,.treatment-image {
+  position:　absolute;
+  width: 10em;
+  height: 20em;
+}
+
+.introduction{
+  width: calc(100% - 10em);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.md-treatment-object-container{
+  display: flex;
+  flex-flow: row nowrap;
 }
