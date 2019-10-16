@@ -35,5 +35,39 @@
 
 .md-treatment-object-container{
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.treatment-objects{
+  display: flex;
+  margin-left: 10em;
+}
+
+.treatment-object{
+  margin-right: 10em;
+}
+
+.md-contactform-container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.md-addres-container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.footer{
+  background-color: rgb(100,100,100);
+}
+
+.footer-content{
+  margin-right: 2em;
+  display: inline-block;
+  text-align: right;
 }
